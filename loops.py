@@ -44,6 +44,10 @@ for count in range(1,6):
 moms_grocery_list = ["Sugar", "Bread", "Pasta", "Noodles"]
 max_price_list = [350,490,820,680]
 total_cost_moms = 0
+budget = 2000
+
+while total_cost_moms < budget:
+    print("Lets Buy Something")
 
 for item in moms_grocery_list:
     if (item == "Sugar"):
