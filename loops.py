@@ -16,3 +16,13 @@ grocery_list = ["Flour", "Rice", "Sugar", "Dhal"]
 
 for item in grocery_list:
     print("Buying", item)
+
+#Taking USER INPUT
+name = input("Enter Your Name -: ")
+age  = int (input("Enter Your Age  -: "))
+print("Your Name is", name)
+
+if age > 18:
+    print("You can Enroll")
+else: 
+    print("You are not Eligible to Enroll")
