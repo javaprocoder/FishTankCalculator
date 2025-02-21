@@ -13,16 +13,30 @@ for count in range(1,6):
 
 #LISTS
 grocery_list = ["Flour", "Rice", "Sugar", "Dhal"]
+total_cost = 0
 
 for item in grocery_list:
+    if (item == "Sugar"):
+        continue
     print("Buying", item)
 
-#Taking USER INPUT
-name = input("Enter Your Name -: ")
-age  = int (input("Enter Your Age  -: "))
-print("Your Name is", name)
+    item_price = int( input("Enter Current Item Price :"))
+    total_cost += item_price
+    print("Current Total Cost :", total_cost)
 
-if age > 18:
-    print("You can Enroll")
-else: 
-    print("You are not Eligible to Enroll")
+    if total_cost > 500:
+        break
+
+print("Have a Happy Shopping!")
+    
+
+#Taking USER INPUT
+# name = input("Enter Your Name -: ")
+# age  = int (input("Enter Your Age  -: "))
+# print("Your Name is", name)
+
+# if age > 18:
+#     print("You can Enroll to the Course")
+# else: 
+#     print("You are not Eligible to Enroll")
+
