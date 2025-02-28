@@ -1,6 +1,6 @@
 # -------------------------DAY 03 PYTHON WORKSHOP-------------------------
-# ------------------------CALCULATOR--------------------
 # FUNCTIONS AS ARGUMENTS
+print("--------------------CALCULATOR--------------------")
 def add(num1, num2):
     return num1 + num2
 
