@@ -31,3 +31,30 @@ for x in range(2, 20, 2):
 Months = ["Jan", "Feb", "Mar", "Apr", "May", "June"];
 for m in Months:
     print(m);
+
+# # Using Break Statements.
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x)
+#   if x == "banana":
+#     break
+
+# Using Continue Statements.
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+vehicles = ["car", "van", "bus", "jeep", "lorry", "truck", "bike", "scooter"]
+for x in vehicles:
+    if x == "lorry":
+        continue
+    print(x)
+
+# USER INPUT
+name = input("Enter name:")
+print("Your Name is: "+name)
+
+age = int(input("Enter Age:"))
+print("Your Age is: "+str(age))
