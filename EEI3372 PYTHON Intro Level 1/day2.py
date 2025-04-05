@@ -58,3 +58,13 @@ print("Your Name is: "+name)
 
 age = int(input("Enter Age:"))
 print("Your Age is: "+str(age))
+# print("Your Age is: ",age)
+
+# Create EMPTY LIST
+my_list = []
+print(my_list)
+my_list = [1,2,3,'example',2.21]
+print(my_list)
+
+# SLICE
+a = ["a", "b", "c", "d", "e", "f", "g", "h"]
