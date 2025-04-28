@@ -62,3 +62,37 @@ for item in moms_grocery_list:
         break
 
 print("You Have Done a Great Shopping My Son")
+
+#Loops and arrays in details from Solo learn
+cars = ["BMW", "Toyota", "Audi", "Honda"]
+
+cars.pop(1)
+cars.insert(1, "Tesla")
+cars.insert(0, "Ferrar")
+print(cars)
+
+brand = "audi"
+model = "Q5"
+print(brand,model)
+
+print(brand.upper())
+
+
+word = 'motorbike'
+print(word.find('r'))
+
+
+book = "1984"
+print(len(book))
+
+movies=["Avatar","Titanic","Alien"]
+movies.append("Avengers")
+movies.insert(2, "Terminator")
+print(movies[3])
+
+def discounted(price, discount):
+    return price * (1 - discount / 100)
+print(discounted)
+
+def discounted(price, discount):
+  return price * (1 - discount / 100)
